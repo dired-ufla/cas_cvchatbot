@@ -24,7 +24,7 @@ $phpcas_path = '../../source/';
 ///////////////////////////////////////
 
 // Full Hostname of your CAS Server
-$cas_host = 'your-host';
+$cas_host = 'acesso.ufla.br';
 
 // Context of the CAS Server
 $cas_context = '/sso';

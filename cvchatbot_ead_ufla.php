@@ -48,7 +48,7 @@ if (phpCAS::isAuthenticated() == false) {
 $fbid = $_GET['fbid'];
 $username = phpCAS::getUser();
 $token = 'your-token';
-$domainname = 'https://campusvirtual.ufla.br/presencial';
+$domainname = 'http://ead.campusvirtual.ufla.br';
 $functionname = 'message_fbnotifier_edit_user_profile';
 $params = array($username, $fbid);
 
